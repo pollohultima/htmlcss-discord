@@ -14,14 +14,16 @@
 .container {
     width: 70%;
     margin: auto;
-    padding: 1rem 0;
 }
 
 /* Header Style */
 
 .navbar {
-    position: relative;
     z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 1rem 0;
 }
 
 .logosx {
@@ -68,12 +70,6 @@ button {
     width: 100%;
 }
 
-.hero_image {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .this_is_discord {
     width: 650px;
     position: absolute;
@@ -87,7 +83,6 @@ button {
 
 h1, .subtitle {
     font-size: 3rem;
-    padding: 1rem;
 }
 
 .its_discord {
@@ -109,14 +104,50 @@ h1, .subtitle {
     color: #23272a;
 }
 
-.items {
-    position: relative;
-    top: 574px;
+.features_dx {
+    padding-top: 30px;
+    float: right;
+    width: 31%;
 }
 
-.text_dx {}
+.subtitle {
+    line-height: 3.5rem;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
 
-.features {
+.parag {
+    font-size: 1.1rem;
+}
+
+.item {
+    padding: 100px 0;
+}
+
+.features_sx {
+    padding-top: 30px;
+    float: left;
+    width: 31%;
+}
+
+.vocal_chat {
     float: right;
-    width: 33%;
+}
+
+.light {
+    filter: invert(97%) sepia(53%) saturate(3%) hue-rotate(234deg) brightness(110%) contrast(93%);
+    position: relative;
+    top: 10px;
+}
+
+.bglight {
+    background-color: #f6f6f6;
+    ;
+}
+
+.white {
+    transform: rotate(.5turn);
+    filter: invert(97%) sepia(53%) saturate(3%) hue-rotate(234deg) brightness(110%) contrast(93%);
+    position: relative;
+    bottom: 10px;
 }
