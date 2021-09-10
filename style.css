@@ -14,13 +14,17 @@
 .container {
     width: 70%;
     margin: auto;
-    background-color: aquamarine;
     padding: 1rem 0;
 }
 
 /* Header Style */
 
-.colsx {
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.logosx {
     float: left;
     width: 23%;
 }
@@ -40,6 +44,7 @@ a {
     line-height: 34px;
     padding: 0 1rem;
     font-weight: bold;
+    color: white;
 }
 
 .login {
@@ -47,4 +52,22 @@ a {
     border: none;
     border-radius: 1rem;
     padding: .3rem .7rem;
+    font-weight: bold;
+}
+
+/* Main Style */
+
+.site_main {
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.jumbo {
+    width: 100%;
+}
+
+.hero_image {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
