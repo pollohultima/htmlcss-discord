@@ -47,12 +47,15 @@ a {
     color: white;
 }
 
+button {
+    border: none;
+    border-radius: 1.3rem;
+    padding: 5px 12px;
+}
+
 .login {
     float: right;
     border: none;
-    border-radius: 1rem;
-    padding: .3rem .7rem;
-    font-weight: bold;
 }
 
 /* Main Style */
@@ -70,4 +73,39 @@ a {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.this_is_discord {
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.its_discord {
+    padding: 1rem;
+}
+
+.mac, .browser {
+    margin: 1rem;
+    font-size: 1.1rem;
+    padding: 5px 15px;
+}
+
+.browser {
+    background-color: #23272a;
+    color: white;
+}
+
+.mac {
+    color: #23272a;
 }
