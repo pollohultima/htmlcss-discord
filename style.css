@@ -109,3 +109,9 @@ h1 {
 .mac {
     color: #23272a;
 }
+
+.speaking_place {
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
