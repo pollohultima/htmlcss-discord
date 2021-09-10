@@ -41,7 +41,7 @@
     width: 52%;
 }
 
-a {
+.actions a {
     text-decoration: none;
     line-height: 34px;
     padding: 0 1rem;
@@ -167,4 +167,56 @@ h1, .subtitle {
     color: white;
     margin-top: 20px;
     margin-bottom: 100px;
+}
+
+/* Footer Style */
+
+.site_footer {
+    background-color: #23272a;
+}
+
+.footer_nav {
+    padding-top: 70px;
+    border-bottom: 2px solid #48557d;
+}
+
+.speaking_place {
+    width: 40%;
+    float: left;
+}
+
+.ita {
+    width: 20px;
+}
+
+.prodotto {
+    width: 15%;
+    float: left;
+}
+
+.prodotto li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    line-height: 2rem;
+    color: white;
+}
+
+.blue {
+    color: #7289da;
+    font-weight: bold;
+}
+
+.endpage {
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+
+.signup {
+    float: right;
+    border: none;
+    background-color: #8ea1e1;
+    color: white;
 }
