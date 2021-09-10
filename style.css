@@ -62,7 +62,6 @@ button {
 
 .site_main {
     width: 100%;
-    background-color: cadetblue;
 }
 
 .jumbo {
@@ -86,7 +85,7 @@ button {
     font-size: 1.1rem;
 }
 
-h1 {
+h1, .subtitle {
     font-size: 3rem;
     padding: 1rem;
 }
@@ -110,8 +109,14 @@ h1 {
     color: #23272a;
 }
 
-.speaking_place {
-    width: 100%;
+.items {
     position: relative;
-    top: 100px;
+    top: 574px;
+}
+
+.text_dx {}
+
+.features {
+    float: right;
+    width: 33%;
 }
