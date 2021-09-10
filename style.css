@@ -2,10 +2,49 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 1rem 0;
+}
+
+/* Header Style */
+
+.colsx {
+    float: left;
+    width: 23%;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.actions {
+    float: left;
+    text-align: center;
+    width: 52%;
+}
+
+a {
+    text-decoration: none;
+    line-height: 34px;
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
+.login {
+    float: right;
+    border: none;
+    border-radius: 1rem;
+    padding: .3rem .7rem;
 }
