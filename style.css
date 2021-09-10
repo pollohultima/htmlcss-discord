@@ -89,7 +89,7 @@ h1, .subtitle {
     padding: 1rem;
 }
 
-.mac, .browser {
+.mac, .browser, .calltoaction {
     margin: 1rem;
     font-size: 1.1rem;
     padding: 5px 15px;
@@ -150,4 +150,21 @@ h1, .subtitle {
     filter: invert(97%) sepia(53%) saturate(3%) hue-rotate(234deg) brightness(110%) contrast(93%);
     position: relative;
     bottom: 10px;
+}
+
+.big {
+    text-align: center;
+}
+
+.stars {
+    position: relative;
+    top: 20px
+}
+
+.calltoaction {
+    font-size: 1rem;
+    background-color: #8ea1e1;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
