@@ -66,6 +66,10 @@ button {
     width: 100%;
 }
 
+.hero_image {
+    padding-bottom: 10px;
+}
+
 .jumbo {
     width: 100%;
 }
@@ -153,7 +157,13 @@ h1, .subtitle {
 }
 
 .big {
+    padding-top: 100px;
     text-align: center;
+}
+
+.mid {
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .stars {
@@ -183,6 +193,12 @@ h1, .subtitle {
 .speaking_place {
     width: 40%;
     float: left;
+    padding-right: 110px;
+    line-height: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 .ita {
@@ -192,6 +208,7 @@ h1, .subtitle {
 .prodotto {
     width: 15%;
     float: left;
+    padding-bottom: 30px;
 }
 
 .prodotto li {
@@ -200,11 +217,11 @@ h1, .subtitle {
 
 ul a {
     text-decoration: none;
-    line-height: 2rem;
     color: white;
+    line-height: 2rem;
 }
 
-.blue {
+.blue, h3 {
     color: #7289da;
     font-weight: bold;
 }
