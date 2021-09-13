@@ -11,12 +11,16 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;700;900&display=swap"
             rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
     </head>
     <body class="">
         <header class="site_header">
             <nav class="navbar container clearfix">
                 <div class="logosx">
-                    <img src="./img/logo.svg" alt="" class="logo">
+                    <a href=""><img src="./img/logo.svg" alt="" class="logo"></a>
                 </div>
                 <div class="actions">
                     <a href="">Scarica</a>
@@ -25,7 +29,7 @@
                     <a href="">Sicurezza</a>
                     <a href="">Assistenza</a>
                 </div>
-                <button class="login">Accedi</button>
+                <a href="" class="buttons" id="login">Accedi</a>
             </nav>
         </header>
         <!-- /.site_header -->
@@ -41,8 +45,11 @@
                         un piccolo gruppo di amici che vuole passare il tempo
                         assieme, Discord rende più facile chiaccherare ogni
                         giorno e ritrovarsi più spesso.</p>
-                    <button class="mac">Scarica per Mac</button>
-                    <button class="browser">Apri Discord nel tuo browser</button>
+                    <a href="" class="buttons" id="mac"><i class="fas
+                            fa-long-arrow-alt-down"></i>Scarica
+                        per Mac</a>
+                    <a href="" class="buttons" id="browser">Apri
+                        Discord nel tuo browser</a>
                 </div>
             </div>
 
@@ -96,7 +103,7 @@
             <img src="./img/wave.svg" alt="" class="waves light">
 
             <div class="bglight">
-                <section class="big container">
+                <div class="big container">
                     <div class="subtitle mid">Tecnologia affidabile per tenersi
                         in
                         contatto</div>
@@ -109,8 +116,12 @@
                     <img src="./img/item4-big.svg" alt="">
                     <img src="./img/stars.svg" alt="" class="stars">
                     <h2>Pronto ad iniziare la tua avventura?</h2>
-                    <button class="calltoaction">Scarica per Mac</button>
-                </section>
+                    <div class="call"><a href="" class="buttons"
+                            id="calltoaction"><i
+                                class="fas fa-long-arrow-alt-down"></i>Scarica
+                            per Mac</a>
+                    </div>
+                </div>
             </div>
         </main>
         <!-- /.site_main -->
@@ -119,10 +130,22 @@
             <div class="footer_nav container clearfix">
                 <div class="speaking_place">
 
-                    <h3>Il tuo posto per parlare</h3>
-                    <img src="./img/ita.png" alt="" class="ita">
+                    <h3 class="place">Il tuo posto per parlare</h3>
 
+                    <img src="./img/ita.png"
+                        alt=""
+                        class="ita">
+                    <select name="language" class="italian">
+                        <option value="italiano"> Italiano </option>
+                    </select>
+                    <div class="social_icons">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
                 </div>
+
                 <section class="prodotto">
                     <ul>
                         <li><a href="" class="blue">Prodotto</a></li>
@@ -171,8 +194,8 @@
                 </section>
             </div>
             <div class="endpage container">
-                <img src="./img/logo.svg" alt="" class="logo">
-                <button class="signup">Registrati</button>
+                <a href=""><img src="./img/logo.svg" alt="" class="logo"></a>
+                <a href="" class="buttons" id="signup">Registrati</a>
             </div>
         </footer>
         <!-- /.site_footer -->

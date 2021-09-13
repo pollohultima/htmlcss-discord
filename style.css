@@ -49,15 +49,32 @@
     color: white;
 }
 
-button {
+.actions>a:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    text-decoration: none;
     border: none;
     border-radius: 1.3rem;
     padding: 5px 12px;
+    transition: all .2s ease-in-out;
 }
 
-.login {
+.buttons:hover {
+    filter: drop-shadow(0px 5px 5px black) brightness(110%);
+}
+
+#login {
+    color: black;
+    background-color: white;
     float: right;
     border: none;
+    transition: color .2s ease-in-out;
+}
+
+#login:hover {
+    color: #48557d;
 }
 
 /* Main Style */
@@ -93,19 +110,30 @@ h1, .subtitle {
     padding: 1rem;
 }
 
-.mac, .browser, .calltoaction {
+#mac, #browser, #calltoaction {
     margin: 1rem;
     font-size: 1.1rem;
-    padding: 5px 15px;
+    padding: 5px 25px;
 }
 
-.browser {
+#browser {
     background-color: #23272a;
     color: white;
 }
 
-.mac {
+#mac {
+    background-color: white;
     color: #23272a;
+    transition: color .2s ease-in-out;
+}
+
+#mac:hover {
+    color: #48557d;
+}
+
+.fa-long-arrow-alt-down {
+    vertical-align: middle;
+    padding-right: 10px;
 }
 
 .features_dx {
@@ -171,12 +199,15 @@ h1, .subtitle {
     top: 20px
 }
 
-.calltoaction {
+.call {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#calltoaction {
     font-size: 1rem;
     background-color: #8ea1e1;
     color: white;
-    margin-top: 20px;
-    margin-bottom: 100px;
 }
 
 /* Footer Style */
@@ -194,15 +225,36 @@ h1, .subtitle {
     width: 40%;
     float: left;
     padding-right: 110px;
-    line-height: 2rem;
+    line-height: 4rem;
 }
 
 h3 {
     font-size: 2rem;
+    line-height: 2rem;
 }
 
 .ita {
     width: 20px;
+}
+
+.italian {
+    background-color: transparent;
+    color: white;
+    border-style: none;
+}
+
+.social_icons {
+    line-height: 0px;
+    font-size: 1.2rem;
+}
+
+.social_icons a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    padding-right: 20px;
 }
 
 .prodotto {
@@ -221,6 +273,10 @@ ul a {
     line-height: 2rem;
 }
 
+li a:hover {
+    text-decoration: underline;
+}
+
 .blue, h3 {
     color: #7289da;
     font-weight: bold;
@@ -231,7 +287,7 @@ ul a {
     padding-bottom: 80px;
 }
 
-.signup {
+#signup {
     float: right;
     border: none;
     background-color: #8ea1e1;
